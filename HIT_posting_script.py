@@ -15,6 +15,7 @@ def read_key_file(argf):
     return key_id.strip(), access_key.strip()
 
 def main(args):
+    #Currently set to the US East 1 AWS server, change as desired
     if args.production:
         endpoint = 'https://mturk-requester.us-east-1.amazonaws.com'
     else:
