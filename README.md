@@ -1,8 +1,8 @@
 # A Template for Posting HITS With External Questions in Amazon Mechanical Turk
 
-A Python script that serves as a general template for Python users to follow when posting HITS with External Questions to Amazon Mechanical Turk. The script is written in Python and uses the Boto3 library to enables users to make posting multiple variations of HITS from the command line without code duplication of the script itself.
+A Python script that serves as a general template for Python users to follow when posting HITS with External Questions to Amazon Mechanical Turk. The script is written in Python and uses the Boto3 and argpares libraries to enables users to make posting multiple variations of HITS from the command line without code duplication of the script itself.
 
-In order to successfully post a HIT the user needs 3 files:
+In order to successfully post a HIT, the user needs 3 files:
 
 1. HIT_posting_script.py
 2. question.xml
